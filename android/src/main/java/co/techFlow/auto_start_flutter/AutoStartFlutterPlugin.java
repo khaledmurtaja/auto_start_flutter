@@ -63,7 +63,7 @@ public class AutoStartFlutterPlugin implements FlutterPlugin, MethodCallHandler 
       } else if ("huawei".equalsIgnoreCase(manufacturer)) {
         result.success(true);
       }else if ("samsung".equalsIgnoreCase(manufacturer)) {
-        result.success(true);
+        result.success(false);
       }else if ("oneplus".equalsIgnoreCase(manufacturer)) {
         result.success(true);
       }else if ("nokia".equalsIgnoreCase(manufacturer)) {
